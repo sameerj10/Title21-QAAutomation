@@ -55,7 +55,7 @@ public class LoginPage_Test extends BaseClass {
 		login.login_BTN(driver).click();
 		test.log(LogStatus.PASS, "Verifing DashBord");
 		dashboardObj.verifyDashboardPrescence(driver);
-		test.log(LogStatus.PASS, "DashBord is displayed");
+		test.log(LogStatus.PASS, "DashBord is displayed After Login.");
 		test.log(LogStatus.PASS,"verifying Administrator's Dashboard header text");
 		dashboardObj.verifyHeaderStyle(driver);
 		test.log(LogStatus.PASS,"Sucefully displayed Administrator's Dashboard header text");
